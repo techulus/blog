@@ -5,7 +5,6 @@ cuid: clgpvshbk05sx3rnv8cc5c7b5
 slug: the-web-badging-api
 canonical: https://techulus.xyz/the-web-badging-api/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682041012408/f82b95ab-7d10-43fc-9147-6da3f6ea0bd8.png
-
 ---
 
 We web developers always strive to make our “web apps” perform and feel as native as possible, but our capabilities are always limited by what is provided by browsers. Thankfully, the web ecosystem is evolving at a quick pace and we’re frequently introduced to new powerful APIs that lets us build more advanced tools. Let’s have a look at such a new API that bridges the gap between web and native applications.

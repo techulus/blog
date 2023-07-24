@@ -1,11 +1,8 @@
 ---
 title: "How to: Backup UNRAID flash to cloud drive"
 datePublished: Mon Oct 24 2022 13:12:53 GMT+0000 (Coordinated Universal Time)
-cuid: clgpvqm7q05sh3rnv6dn4fj4m
-slug: how-to-unraid-flash-backup-to-cloud-drive
-canonical: https://techulus.xyz/how-to-unraid-flash-backup-to-cloud-drive/
+featured: true
 cover: https://images.unsplash.com/photo-1589532768434-a92c95dad7cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDZ8fGJhY2t1cHxlbnwwfHx8fDE2NjY2MTY5NTU&ixlib=rb-4.0.3&q=80&w=2000
-
 ---
 
 Recently while trying to downgrade my UNRAID OS, I completely messed up my server, and the worst part, I did not have a backup of my flash drive. I had to set up my whole server again, lesson learned!

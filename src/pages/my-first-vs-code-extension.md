@@ -1,11 +1,11 @@
 ---
+template: post
 title: "My First VS Code Extension"
 datePublished: Thu May 10 2018 16:55:46 GMT+0000 (Coordinated Universal Time)
 cuid: clgpvsvjd05sz3rnv0vt33dzx
 slug: my-first-vs-code-extension
 canonical: https://techulus.xyz/my-first-vs-code-extension/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682041031187/aefb63d3-40ba-4ca8-8adb-0a69a1477f03.png
-
 ---
 
 > Finally, after playing around with VS Code a lot, I decided I should publish a plugin. I had a few ideas in mind, mostly minor helpers that would help me in my work.

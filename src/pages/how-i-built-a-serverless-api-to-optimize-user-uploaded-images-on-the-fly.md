@@ -1,11 +1,9 @@
 ---
+template: post
 title: "How I Built a Serverless API to Optimize User-Uploaded Images on the Fly"
 datePublished: Thu Apr 20 2023 09:46:56 GMT+0000 (Coordinated Universal Time)
-cuid: clgpvptso06g953nvbm7cc1dz
-slug: how-i-built-a-serverless-api-to-optimize-user-uploaded-images-on-the-fly
-canonical: https://techulus.xyz/how-i-built-a-serverless-api-to-optimize-user-uploaded-images-on-the-fly/
+featured: true
 cover: https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDl8fGZpeHxlbnwwfHx8fDE2ODE5ODU1NjQ&ixlib=rb-4.0.3&q=80&w=2000
-
 ---
 
 Optimizing images for the web is a crucial step in improving the performance and user experience of a website. However, it can be challenging to optimize user-uploaded images when you don't know their dimensions in advance. This is where server-side image processing comes in handy.

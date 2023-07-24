@@ -5,7 +5,6 @@ cuid: clgpvrzyc06gf53nv2ph5713z
 slug: free-website-monitoring-with-instant-push-notification-alerts
 canonical: https://techulus.xyz/free-website-monitoring-with-instant-push-notification-alerts/
 cover: https://images.unsplash.com/photo-1573164713988-8665fc963095?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fHNlcnZlcnxlbnwwfHx8fDE2NDIxNTAxMzM&ixlib=rb-1.2.1&q=80&w=2000
-
 ---
 
 In this article, I’ll help you set up a free and simple website monitoring tool which sends instant alerts using push notification. Before we begin, let’s have a look a what we will need:

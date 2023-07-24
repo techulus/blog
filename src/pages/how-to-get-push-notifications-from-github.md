@@ -5,7 +5,6 @@ cuid: clgpvs91705sw3rnvb89t3ljg
 slug: how-to-get-push-notifications-from-github
 canonical: https://techulus.xyz/how-to-get-push-notifications-from-github/
 cover: https://images.unsplash.com/photo-1584091377126-3817650725fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fG5vdGlmaWNhdGlvbnxlbnwwfHx8fDE2NDIxNDk2NjI&ixlib=rb-1.2.1&q=80&w=2000
-
 ---
 
 If you’ve got a mobile phone, then you probably know what push notifications are. A [push notification](https://www.twilio.com/docs/glossary/what-is-push-notification?ref=techulus.xyz) (also known as a server push notification) is the delivery of information to a computing device from an application server where the request for the transaction is started by the server rather than by an explicit request from the client. Basically, it’s these bubbles that pop up on your device.

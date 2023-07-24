@@ -5,7 +5,6 @@ cuid: clgpvrkf905ss3rnv5dfu5gy9
 slug: my-home-server-setup-with-unraid-jan-2022-edition
 canonical: https://techulus.xyz/my-home-server-setup-with-unraid-jan-2022-edition/
 cover: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHNlcnZlcnxlbnwwfHx8fDE2NDI1NzIyNDU&ixlib=rb-1.2.1&q=80&w=2000
-
 ---
 
 I'm going to walk you through my home lab setup, showing you what I've set up now, both hardware and software and also share my plans for potential upgrades in the future.

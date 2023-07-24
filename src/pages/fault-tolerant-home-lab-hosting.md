@@ -5,7 +5,6 @@ cuid: clgpvqtmx05si3rnvewprh6v3
 slug: fault-tolerant-home-lab-hosting
 canonical: https://techulus.xyz/fault-tolerant-home-lab-hosting/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682040934961/a4c730b8-7925-41f5-8efa-6a4215ac9432.jpeg
-
 ---
 
 I've been self-hosting stateless web services at my home lab for over two years now, so it's time to write about it. To be clear, I'm not implying this is the right method, it is what has worked best for me.

@@ -1,11 +1,7 @@
 ---
 title: "Story behind every product I've build - Part 1 of ?"
 datePublished: Sun Dec 04 2022 04:24:02 GMT+0000 (Coordinated Universal Time)
-cuid: clgpvq9d105sd3rnvd0i4hsfe
-slug: story-behind-every-product-ive-build
-canonical: https://techulus.xyz/story-behind-every-product-ive-build/
 cover: https://images.unsplash.com/photo-1543726969-a1da85a6d334?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fHN0b3J5fGVufDB8fHx8MTY2OTI5MjA1OQ&ixlib=rb-4.0.3&q=80&w=2000
-
 ---
 
 It was 2009, I got my hands on an iPhone (the original iPhone 2G) for the very first time. It was uncommon in India, mainly because it was hard to get and not affordable, but more than that it wasn't a great experience. All the phones were locked and also jailbroken for unlocking, we couldn't update iOS because that would break Cydia and get rid of the carrier unlock. Unaware of this the first thing I did after getting the phone was to upgrade the OS and thus got my phone locked, sigh.

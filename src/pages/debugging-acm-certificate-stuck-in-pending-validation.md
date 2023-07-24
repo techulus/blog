@@ -1,11 +1,11 @@
 ---
-title: "Debugging ACM certificate stuck in "Pending validation""
+template: post
+title: "Debugging ACM certificate stuck in 'Pending validation'"
 datePublished: Tue Oct 25 2022 09:04:41 GMT+0000 (Coordinated Universal Time)
 cuid: clgpvqgrg06gc53nvbdia7gdi
 slug: debugging-acm-certificate-stuck-in-pending-validation
 canonical: https://techulus.xyz/debugging-acm-certificate-stuck-in-pending-validation/
 cover: https://images.unsplash.com/photo-1648337564744-f919c7c2fc02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDM4fHxjZXJ0aWZpY2F0ZXxlbnwwfHx8fDE2NjY2ODg2MDU&ixlib=rb-4.0.3&q=80&w=2000
-
 ---
 
 ***TL;DR*** *My domain had a CNAME record pointing to Vercel, which had a CAA recording that prevented AWS from issuing certificates. The fix was to replace the* ***CNAME*** *record with an* ***A*** *record.*
