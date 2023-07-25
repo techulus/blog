@@ -1,9 +1,7 @@
 ---
+template: post
 title: "Free website monitoring with instant push notification alerts"
-datePublished: Tue Feb 11 2020 12:31:05 GMT+0000 (Coordinated Universal Time)
-cuid: clgpvrzyc06gf53nv2ph5713z
-slug: free-website-monitoring-with-instant-push-notification-alerts
-canonical: https://techulus.xyz/free-website-monitoring-with-instant-push-notification-alerts/
+date_published: Tue Feb 11 2020
 cover: https://images.unsplash.com/photo-1573164713988-8665fc963095?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fHNlcnZlcnxlbnwwfHx8fDE2NDIxNTAxMzM&ixlib=rb-1.2.1&q=80&w=2000
 ---
 
@@ -20,7 +18,7 @@ What is a website monitoring service? It’s simply a tool that lets us check if
 
 Before we start, make sure you’ve set up your account at [push.techulus.com](https://push.techulus.com/?ref=techulus.xyz), installed the app on your device and copied the API key.
 
-![Free website monitoring with instant push notification alerts](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040987613/e54df284-9e39-4c45-b6f9-48db05730bce.png align="left")
+![Free website monitoring with instant push notification alerts](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040987613/e54df284-9e39-4c45-b6f9-48db05730bce.png)
 
 Get the API key from Push console
 
@@ -64,7 +62,7 @@ All you need to do is, download this script into your machine or server and keep
 
 The script tries to load our website and if it fails (the server doesn’t respond with status code 200 OK), we assume that something has gone wrong and trigger a push notification.
 
-![Free website monitoring with instant push notification alerts](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040989386/5797e4f3-8afa-4f73-8a40-73604a1b68e7.jpeg align="left")
+![Free website monitoring with instant push notification alerts](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040989386/5797e4f3-8afa-4f73-8a40-73604a1b68e7.jpeg)
 
 Make sure you run this script frequently so that we can be alerted on time. To run this script every minute using *cronjob*, we can add the following command to *crontab*. Open crontab using the command
 

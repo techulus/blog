@@ -1,9 +1,7 @@
 ---
+template: post
 title: "The Web Badging API"
-datePublished: Mon Nov 04 2019 10:17:39 GMT+0000 (Coordinated Universal Time)
-cuid: clgpvshbk05sx3rnv8cc5c7b5
-slug: the-web-badging-api
-canonical: https://techulus.xyz/the-web-badging-api/
+date_published: Mon Nov 04 2019
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682041012408/f82b95ab-7d10-43fc-9147-6da3f6ea0bd8.png
 ---
 
@@ -11,17 +9,17 @@ We web developers always strive to make our “web apps” perform and feel as n
 
 Web Badging API is a proposed platform API that allows web apps to set badges associated with an open page (such as when a badge is shown on or near the page’s icon in a browser tab) and app-wide badge in operating-system-specific places such as the shelf or home screen. Basically, it lets your app show badges like this:
 
-![The Web Badging API](https://cdn.hashnode.com/res/hashnode/image/upload/v1682041007679/c7f5696d-70bb-4f9e-af66-ab9e101e9428.png align="left")
+![The Web Badging API](https://cdn.hashnode.com/res/hashnode/image/upload/v1682041007679/c7f5696d-70bb-4f9e-af66-ab9e101e9428.png)
 
 PWA with Badge on macOs
 
 and like this:
 
-![The Web Badging API](https://cdn.hashnode.com/res/hashnode/image/upload/v1682041008880/fe530503-6a7b-48bb-adc1-0174055068ab.png align="left")
+![The Web Badging API](https://cdn.hashnode.com/res/hashnode/image/upload/v1682041008880/fe530503-6a7b-48bb-adc1-0174055068ab.png)
 
 Windows taskbar badge
 
-![The Web Badging API](https://cdn.hashnode.com/res/hashnode/image/upload/v1682041009877/9e696232-a7eb-4de5-bd77-a29920913ef1.png align="left")
+![The Web Badging API](https://cdn.hashnode.com/res/hashnode/image/upload/v1682041009877/9e696232-a7eb-4de5-bd77-a29920913ef1.png)
 
 Badge on Android
 
@@ -42,4 +40,4 @@ View [Badging API Demo](https://badging-api.glitch.me/?ref=techulus.xyz) in Chro
 To know more checkout [WICG explainer](https://github.com/WICG/badging/blob/master/explainer.md?ref=techulus.xyz) and Chrome [Badging API](https://web.dev/badging-api/?ref=techulus.xyz).  
 You can read more about the host implementation [here](https://github.com/WICG/badging/blob/master/docs/implementation.md?ref=techulus.xyz).
 
-![The Web Badging API](https://cdn.hashnode.com/res/hashnode/image/upload/v1682041011497/4508d770-3819-49c5-ac9e-40fc8243fd14.png align="left")
+![The Web Badging API](https://cdn.hashnode.com/res/hashnode/image/upload/v1682041011497/4508d770-3819-49c5-ac9e-40fc8243fd14.png)

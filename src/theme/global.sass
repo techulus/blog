@@ -1,0 +1,81 @@
+:root {
+  --font-family: "Fira Sans", sans-serif;
+  --spacing: 0.75rem;
+}
+
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --card-background-color: var(--background-color);
+  --card-box-shadow: none;
+}
+
+/* Light-blue Light scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --primary: #039be5;
+  --primary-hover: #0288d1;
+  --primary-focus: rgba(3, 155, 229, 0.125);
+  --primary-inverse: #FFF;
+}
+
+/* Light-blue Dark scheme (Auto) */
+/* Automatically enabled if user has Dark mode enabled */
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --primary: #039be5;
+    --primary-hover: #03a9f4;
+    --primary-focus: rgba(3, 155, 229, 0.25);
+    --primary-inverse: #FFF;
+  }
+}
+
+/* Light-blue Dark scheme (Forced) */
+/* Enabled if forced with data-theme="dark" */
+[data-theme="dark"] {
+  --primary: #039be5;
+  --primary-hover: #03a9f4;
+  --primary-focus: rgba(3, 155, 229, 0.25);
+  --primary-inverse: #FFF;
+}
+
+/* Light-blue (Common styles) */
+:root {
+  --form-element-active-border-color: var(--primary);
+  --form-element-focus-color: var(--primary-focus);
+  --switch-color: var(--primary-inverse);
+  --switch-checked-background-color: var(--primary);
+}
+
+article {
+  padding: calc(var(--block-spacing-vertical) / 2) 0;
+}
+
+article > header > h2,
+article > header > p {
+  margin-bottom: 0;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+pre {
+  padding: 0 !important;
+}
+
+code {
+  font-family: "Fira Code", monospace !important;
+  font-size: 0.8rem !important;
+}
+
+article {
+  p {
+    display: block;
+
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}

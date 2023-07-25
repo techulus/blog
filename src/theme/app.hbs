@@ -7,6 +7,9 @@
   {{{open_graph_tags}}}
 
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
   {{{styles}}}
 
@@ -19,44 +22,35 @@
   </script>
 </head>
 
-<body class="flex flex-col">
+<body>
+  <main class="container">
 
-  <nav class="bg-gray-800">
-    <div class="mx-auto max-w-5xl px-2 sm:px-6 lg:px-8">
-      <div class="relative flex h-16 items-center justify-between">
-        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-          <div class="flex flex-shrink-0 items-center text-white text-bold">
-            {{title}}
-          </div>
-          <div class="hidden sm:ml-6 sm:block">
-            <div class="flex space-x-4">
-              {{#each links}}
-              <a href="{{this.url}}"
-                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">{{this.label}}</a>
-              {{/each}}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
+    <nav>
+      <ul>
+        {{#each links}}
+        <li><a href="{{this.url}}">{{this.label}}</a></li>
+        {{/each}}
+      </ul>
+    </nav>
 
-  <main class="container max-w-4xl mx-auto">
-    <div class="prose max-w-4xl">
-      {{{content}}}
-    </div>
+    <hgroup>
+      <h1>{{title}}</h1>
+      <h2>{{description}}</h2>
+    </hgroup>
 
-    <footer class="py-12">
-      <small>
-        Built with
-        <a href="https://rustyink.cli.rs" target="_blank" rel="noopener noreferrer">Rusty!nk</a>
-        •
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/arjunkomath/rustyink">
-          Source code
-        </a>
-      </small>
-    </footer>
+    {{{content}}}
+
   </main>
+  <footer class="container">
+    <small>
+      Built with
+      <a href="https://rustyink.cli.rs" target="_blank" rel="noopener noreferrer">Rusty!nk</a>
+      •
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/arjunkomath/rustyink">
+        Source code
+      </a>
+    </small>
+  </footer>
 </body>
 
 {{{scripts}}}

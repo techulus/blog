@@ -7,8 +7,9 @@ title = "~/techulus"
 description = "Thoughts, experiments and ideas."
 
 [site]
-script_urls = ['https://cdn.tailwindcss.com?plugins=typography']
+script_urls = []
 style_urls = [
+  'https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css',
   'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css',
 ]
 
@@ -17,3 +18,7 @@ links = [
   { label = "~/", url = "/" },
   { label = "Open-source", url = "https://github.com/arjunkomath" },
 ]
+
+[data]
+author = "Arjun Komath"
+author_link = "https://twitter.com/arjunz"

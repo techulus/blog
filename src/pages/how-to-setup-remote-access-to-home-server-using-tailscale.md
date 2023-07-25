@@ -1,9 +1,7 @@
 ---
+template: post
 title: "How to setup remote access to home server using Tailscale"
-datePublished: Sat Jan 15 2022 12:04:49 GMT+0000 (Coordinated Universal Time)
-cuid: clgpvrt4d05sv3rnvdyd6f0sz
-slug: how-to-setup-remote-access-to-home-server-using-tailscale
-canonical: https://techulus.xyz/how-to-setup-remote-access-to-home-server-using-tailscale/
+date_published: Sat Jan 15 2022
 cover: https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDM4fHxyZW1vdGUlMjB3b3JrfGVufDB8fHx8MTY0MjI0NDAzNA&ixlib=rb-1.2.1&q=80&w=2000
 ---
 
@@ -30,17 +28,17 @@ Once the installation has been completed you can test the network by checking it
 
 `tailscale status`
 
-![How to setup remote access to home server using Tailscale](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040976823/88abdf02-7ee6-4daa-86ed-ea1f69251ea1.png align="left")
+![How to setup remote access to home server using Tailscale](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040976823/88abdf02-7ee6-4daa-86ed-ea1f69251ea1.png)
 
 On Mac you can find the devices using Tailscale app:
 
-![How to setup remote access to home server using Tailscale](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040978798/85db0779-d908-4916-84d7-62baa945a561.png align="left")
+![How to setup remote access to home server using Tailscale](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040978798/85db0779-d908-4916-84d7-62baa945a561.png)
 
 You can also try pinging a device using:
 
 `tailscale ping ip|name`
 
-![How to setup remote access to home server using Tailscale](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040980078/3fd19ab4-21c5-4bf7-8575-ecfb2be7f621.png align="left")
+![How to setup remote access to home server using Tailscale](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040980078/3fd19ab4-21c5-4bf7-8575-ecfb2be7f621.png)
 
 And that's pretty much it, you've successfully set up networking between your devices. But we can do a few more things to make this setup nicer.
 
@@ -58,6 +56,6 @@ Once you've done that do to the DNS tab in Tailscale and add global nameservers.
 
 By default, Tailscale authentication keys expire after a certain period and we've to reauthenticate the machines. This is fine with our devices which we interact with all the time but it is annoying to do the same on our server. To fix this you can disable key expiry on your server from the Tailscale dashboard. Note that when we do this the servers have a perpetual authentication, so anyone who has access to the server has access to your network.
 
-![How to setup remote access to home server using Tailscale](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040980987/7ef1e42d-e822-4acc-aaee-78fb7f950039.png align="left")
+![How to setup remote access to home server using Tailscale](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040980987/7ef1e42d-e822-4acc-aaee-78fb7f950039.png)
 
 In the next tutorial, I'll discuss steps for setting up an actual domain name and making services public securely with the help of Tailscale ACL.

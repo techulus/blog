@@ -1,9 +1,7 @@
 ---
+template: post
 title: "Fault tolerant home lab hosting"
-datePublished: Thu Sep 22 2022 02:58:32 GMT+0000 (Coordinated Universal Time)
-cuid: clgpvqtmx05si3rnvewprh6v3
-slug: fault-tolerant-home-lab-hosting
-canonical: https://techulus.xyz/fault-tolerant-home-lab-hosting/
+date_published: Thu Sep 22 2022
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682040934961/a4c730b8-7925-41f5-8efa-6a4215ac9432.jpeg
 ---
 
@@ -26,13 +24,13 @@ You can set this up by using [AWS App runner](https://aws.amazon.com/apprunner/?
 
 I'm using AWS Cloudfront as it's cheap and can handle our failover logic, you could achieve the same setup using a Cloudflare load balancer, but it could cost more depending on your usage. Here is a neat diagram to explain the setup:
 
-![Fault tolerant home lab hosting](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040932131/02c1c0f6-3544-4d07-850b-148ee20fd685.png align="left")
+![Fault tolerant home lab hosting](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040932131/02c1c0f6-3544-4d07-850b-148ee20fd685.png)
 
 So go ahead and create a Cloudfront distribution for your web service, add your home lab web service URL as the origin and deploy it. Make sure it's up and update the DNS configuration (if required) so that your domain name points to CDN, once this is done, all your requests should be served via CDN.
 
 Next, we will create another origin for our cloud instance, and then create an origin group to handle the failover, it will look like this:
 
-![Fault tolerant home lab hosting](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040933711/e955cda1-7f23-4512-9516-4db9c456f1e3.png align="left")
+![Fault tolerant home lab hosting](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040933711/e955cda1-7f23-4512-9516-4db9c456f1e3.png)
 
 The final step is to update our distribution behaviour, we will update the default rule to use our origin group instead of the home lab one and it is done!
 

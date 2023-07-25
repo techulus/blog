@@ -1,6 +1,7 @@
 ---
+template: post
 title: "How to: Backup UNRAID flash to cloud drive"
-datePublished: Mon Oct 24 2022 13:12:53 GMT+0000 (Coordinated Universal Time)
+date_published: Mon Oct 24 2022
 featured: true
 cover: https://images.unsplash.com/photo-1589532768434-a92c95dad7cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDZ8fGJhY2t1cHxlbnwwfHx8fDE2NjY2MTY5NTU&ixlib=rb-4.0.3&q=80&w=2000
 ---
@@ -56,4 +57,4 @@ The `tar` command creates our flash backup archive. Next, we remove archives old
 
 The last step is to make sure our script runs every day, so go back to user scripts, next to the new script we created you should see a dropdown that says 'Schedule disabled'. Change that to schedule daily and we're done!
 
-![How to: Backup UNRAID flash to cloud drive](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040924551/1c9535ef-4654-4d5c-abae-68cc6c160861.png align="left")
+![How to: Backup UNRAID flash to cloud drive](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040924551/1c9535ef-4654-4d5c-abae-68cc6c160861.png)

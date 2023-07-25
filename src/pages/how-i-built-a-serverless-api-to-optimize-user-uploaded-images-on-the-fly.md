@@ -1,7 +1,7 @@
 ---
 template: post
 title: "How I Built a Serverless API to Optimize User-Uploaded Images on the Fly"
-datePublished: Thu Apr 20 2023 09:46:56 GMT+0000 (Coordinated Universal Time)
+date_published: Thu Apr 20 2023
 featured: true
 cover: https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDl8fGZpeHxlbnwwfHx8fDE2ODE5ODU1NjQ&ixlib=rb-4.0.3&q=80&w=2000
 ---

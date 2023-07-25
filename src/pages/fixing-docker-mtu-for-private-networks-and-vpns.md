@@ -1,9 +1,7 @@
 ---
+template: post
 title: "Fixing Docker MTU for private networks and VPNs"
-datePublished: Tue Jan 25 2022 05:20:00 GMT+0000 (Coordinated Universal Time)
-cuid: clgpvrap105so3rnv9xanesj0
-slug: fixing-docker-mtu-for-private-networks-and-vpns
-canonical: https://techulus.xyz/fixing-docker-mtu-for-private-networks-and-vpns/
+date_published: Tue Jan 25 2022
 cover: https://images.unsplash.com/photo-1613690399151-65ea69478674?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDV8fGNvbnRhaW5lcnxlbnwwfHx8fDE2NDMwNzcxOTA&ixlib=rb-1.2.1&q=80&w=2000
 ---
 
@@ -15,7 +13,7 @@ In a nutshell, the problem was the swarm ingress routing mesh with a bad MTU con
 
 The Docker Daemon does not check the MTU of the outgoing connection and is by default set to 1500, my private network (using [Tailscale](https://tailscale.com/?ref=techulus.xyz)) on the hand only supports an MTU of 1280, you can find this by running `ip link` command.
 
-![Fixing Docker MTU for private networks and VPNs](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040948447/8ed65b94-a568-4c86-b739-84445b548575.png align="left")
+![Fixing Docker MTU for private networks and VPNs](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040948447/8ed65b94-a568-4c86-b739-84445b548575.png)
 
 The solution is fairly straightforward, we have to update Docker network configuration to use the lower MTU and we can do this in two ways:
 
