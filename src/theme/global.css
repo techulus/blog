@@ -16,7 +16,7 @@
   --primary: #039be5;
   --primary-hover: #0288d1;
   --primary-focus: rgba(3, 155, 229, 0.125);
-  --primary-inverse: #FFF;
+  --primary-inverse: #fff;
 }
 
 /* Light-blue Dark scheme (Auto) */
@@ -26,7 +26,7 @@
     --primary: #039be5;
     --primary-hover: #03a9f4;
     --primary-focus: rgba(3, 155, 229, 0.25);
-    --primary-inverse: #FFF;
+    --primary-inverse: #fff;
   }
 }
 
@@ -36,7 +36,7 @@
   --primary: #039be5;
   --primary-hover: #03a9f4;
   --primary-focus: rgba(3, 155, 229, 0.25);
-  --primary-inverse: #FFF;
+  --primary-inverse: #fff;
 }
 
 /* Light-blue (Common styles) */
@@ -69,13 +69,20 @@ code {
   font-size: 0.8rem !important;
 }
 
-article {
-  p {
-    display: block;
+article p {
+  display: block;
+}
 
-    img {
-      margin: 0 auto;
-      display: block;
-    }
-  }
+article p img {
+  margin: 0 auto;
+  display: block;
+}
+
+.post-cover {
+  background-size: cover;
+  height: 320px;
+  width: 100%;
+  margin-top: 32px;
+  scale: 1.1;
+  border-radius: 12px;
 }

@@ -15,6 +15,10 @@
     {{#if date_published}}
     <p><small>// {{date_published}}</small></p>
     {{/if}}
+
+    {{#if cover}}
+    <div class="post-cover" style="background-image: url({{cover}});" alt="{{title}}" />
+    {{/if}}
   </header>
 
   {{{body}}}
