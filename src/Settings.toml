@@ -17,6 +17,7 @@ style_urls = [
 links = [
   { label = "~/", url = "/" },
   { label = "Open-source", url = "https://github.com/arjunkomath" },
+  { label = "Twitter", url = "https://twitter.com/arjunz" },
 ]
 
 [data]

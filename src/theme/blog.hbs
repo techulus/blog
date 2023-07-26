@@ -1,11 +1,11 @@
 {{{content}}}
 
 <ul>
-  {{#each root}}
+  {{#each (sort-by root "date_published" "desc")}}
   {{#if (not (eq @key "_self"))}}
   <hgroup>
     <h4><a href="/{{@key}}/">{{this.title}}</a></h4>
-    <h2>{{this.date_published}}</h2>
+    <h2>// {{format-date this.date_published "%a, %b %e %Y"}}</h2>
   </hgroup>
   {{/if}}
   {{/each}}

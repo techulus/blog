@@ -1,7 +1,7 @@
 ---
 template: post
 title: "How to: Get push notifications from GitHub"
-date_published: Mon Nov 11 2019
+date_published: 1573428443000
 cover: https://images.unsplash.com/photo-1584091377126-3817650725fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fG5vdGlmaWNhdGlvbnxlbnwwfHx8fDE2NDIxNDk2NjI&ixlib=rb-1.2.1&q=80&w=2000
 ---
 

@@ -1,7 +1,7 @@
 ---
 template: post
 title: "Fault tolerant home lab hosting"
-date_published: Thu Sep 22 2022
+date_published: 1663806443000
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682040934961/a4c730b8-7925-41f5-8efa-6a4215ac9432.jpeg
 ---
 

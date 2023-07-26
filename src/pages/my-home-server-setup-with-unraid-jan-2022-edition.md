@@ -1,7 +1,7 @@
 ---
 template: post
 title: "My home lab setup with UNRAID, Jan 2022 edition"
-date_published: Wed Jan 19 2022
+date_published: 1642548443000
 cover: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHNlcnZlcnxlbnwwfHx8fDE2NDI1NzIyNDU&ixlib=rb-1.2.1&q=80&w=2000
 ---
 

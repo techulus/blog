@@ -1,7 +1,7 @@
 ---
 template: post
 title: "How to setup remote access to home server using Tailscale"
-date_published: Sat Jan 15 2022
+date_published: 1642202843000
 cover: https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDM4fHxyZW1vdGUlMjB3b3JrfGVufDB8fHx8MTY0MjI0NDAzNA&ixlib=rb-1.2.1&q=80&w=2000
 ---
 

@@ -1,7 +1,7 @@
 ---
 template: post
 title: "My First VS Code Extension"
-date_published: Thu May 10 2018
+date_published: 1525912043000
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682041031187/aefb63d3-40ba-4ca8-8adb-0a69a1477f03.png
 ---
 

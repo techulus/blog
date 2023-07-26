@@ -1,7 +1,7 @@
 ---
 template: post
 title: "The Web Badging API"
-date_published: Mon Nov 04 2019
+date_published: 1572823643000
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682041012408/f82b95ab-7d10-43fc-9147-6da3f6ea0bd8.png
 ---
 

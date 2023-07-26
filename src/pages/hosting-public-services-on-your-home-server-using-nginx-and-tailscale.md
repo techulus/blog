@@ -1,7 +1,7 @@
 ---
 template: post
 title: "Hosting public services on your home server using NGINX and Tailscale"
-date_published: Fri Feb 04 2022
+date_published: 1643930843000
 featured: true
 cover: https://images.unsplash.com/photo-1504639725590-34d0984388bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDcyfHx3ZWIlMjBzdGFydHVwfGVufDB8fHx8MTY0MjMxMTkzMQ&ixlib=rb-1.2.1&q=80&w=2000
 ---

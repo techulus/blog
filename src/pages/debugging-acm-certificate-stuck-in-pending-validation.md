@@ -1,7 +1,7 @@
 ---
 template: post
 title: "Debugging ACM certificate stuck in 'Pending validation'"
-date_published: Tue Oct 25 2022
+date_published: 1666654043000
 cover: https://images.unsplash.com/photo-1648337564744-f919c7c2fc02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDM4fHxjZXJ0aWZpY2F0ZXxlbnwwfHx8fDE2NjY2ODg2MDU&ixlib=rb-4.0.3&q=80&w=2000
 ---
 

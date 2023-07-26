@@ -1,6 +1,6 @@
 <article>
   <header>
-    <h3>{{title}}</h3>
+    <h3>{{data.title}}</h3>
 
     {{#if data.author}}
     <p>
@@ -12,20 +12,24 @@
     </p>
     {{/if}}
 
-    {{#if date_published}}
-    <p><small>// {{date_published}}</small></p>
+    {{#if data.date_published}}
+    <p><small>// {{format-date data.date_published "%a, %b %e %Y"}}</small></p>
     {{/if}}
 
-    {{#if cover}}
-    <div class="post-cover" style="background-image: url({{cover}});" alt="{{title}}" />
+    {{#if data.cover}}
+    <div class="post-cover" style="background-image: url({{data.cover}});" alt="{{data.title}}" />
     {{/if}}
   </header>
 
   {{{body}}}
 
-  {{#if some_data}}
-  <footer><small>
-      {{some_data}}
-    </small></footer>
-  {{/if}}
+  <footer>
+    {{#if data.author}}
+    <p>
+      {{#if data.author_link}}
+      <small>// Find me on Twitter/X <a href="{{data.author_link}}">@arjunz</a></small>
+      {{/if}}
+    </p>
+    {{/if}}
+  </footer>
 </article>

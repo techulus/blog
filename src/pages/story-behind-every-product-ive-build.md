@@ -1,7 +1,7 @@
 ---
 template: post
 title: "Story behind every product I've build - Part 1 of ?"
-date_published: Sun Dec 04 2022
+date_published: 1670110043000
 cover: https://images.unsplash.com/photo-1543726969-a1da85a6d334?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fHN0b3J5fGVufDB8fHx8MTY2OTI5MjA1OQ&ixlib=rb-4.0.3&q=80&w=2000
 ---
 

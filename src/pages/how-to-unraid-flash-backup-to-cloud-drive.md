@@ -1,7 +1,7 @@
 ---
 template: post
 title: "How to: Backup UNRAID flash to cloud drive"
-date_published: Mon Oct 24 2022
+date_published: 1666567643000
 featured: true
 cover: https://images.unsplash.com/photo-1589532768434-a92c95dad7cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDZ8fGJhY2t1cHxlbnwwfHx8fDE2NjY2MTY5NTU&ixlib=rb-4.0.3&q=80&w=2000
 ---

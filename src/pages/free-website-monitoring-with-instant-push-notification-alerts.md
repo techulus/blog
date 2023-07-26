@@ -1,7 +1,7 @@
 ---
 template: post
 title: "Free website monitoring with instant push notification alerts"
-date_published: Tue Feb 11 2020
+date_published: 1581377243000
 cover: https://images.unsplash.com/photo-1573164713988-8665fc963095?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fHNlcnZlcnxlbnwwfHx8fDE2NDIxNTAxMzM&ixlib=rb-1.2.1&q=80&w=2000
 ---
 
