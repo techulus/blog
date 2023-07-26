@@ -3,9 +3,9 @@
 <ul>
   {{#each (sort-by root "date_published" "desc")}}
   {{#if (not (eq @key "_self"))}}
-  <hgroup>
+  <hgroup class="post-title">
     <h4><a href="/{{@key}}/">{{this.title}}</a></h4>
-    <h2>// {{format-date this.date_published "%a, %b %e %Y"}}</h2>
+    <h2>{{format-date this.date_published "%a, %b %e %Y"}} :: {{../data.author}}</h2>
   </hgroup>
   {{/if}}
   {{/each}}

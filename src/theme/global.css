@@ -47,6 +47,22 @@
   --switch-checked-background-color: var(--primary);
 }
 
+.blog-title-container {
+  position: relative;
+  padding-bottom: 24px;
+}
+
+.blog-title {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.blog-title-container h2 {
+  position: absolute;
+  left: 60px;
+  bottom: 12px;
+}
+
 article {
   padding: calc(var(--block-spacing-vertical) / 2) 0;
 }
@@ -79,10 +95,39 @@ article p img {
 }
 
 .post-cover {
+  background-position: center;
   background-size: cover;
   height: 320px;
   width: 100%;
   margin-top: 32px;
   scale: 1.1;
-  border-radius: 12px;
+  border-radius: 4px;
+}
+
+hgroup.post-title {
+  position: relative;
+}
+
+hgroup.post-title::after {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  display: block;
+  width: 100%;
+  border-bottom: 3px dotted #039be5;
+  opacity: 50%;
+}
+
+article header h3 {
+  position: relative;
+  border-bottom: 3px dotted #039be5;
+}
+
+article header h3::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  display: block;
+  width: 100%;
+  border-bottom: 3px dotted #039be5;
 }
