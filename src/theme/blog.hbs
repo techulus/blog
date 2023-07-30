@@ -1,12 +1,29 @@
 {{{content}}}
 
-<ul>
+<div class="grid">
   {{#each (sort-by root "date_published" "desc")}}
   {{#if (not (eq @key "_self"))}}
+  {{#if (eq this.featured true)}}
+  <div class="featured">
+    {{#if this.cover}}
+    <span class="cover" style="background-image: url({{this.cover}});" alt="{{this.title}}" />
+    {{/if}}
+    <h3><a href="/{{@key}}/">{{this.title}}</a></h3>
+  </div>
+  {{/if}}
+  {{/if}}
+  {{/each}}
+</div>
+
+<ul style="margin-top: 40px;">
+  {{#each (sort-by root "date_published" "desc")}}
+  {{#if (not (eq @key "_self"))}}
+  {{#if (not(eq this.featured true))}}
   <hgroup class="post-title">
     <h4><a href="/{{@key}}/">{{this.title}}</a></h4>
     <h2>{{format-date this.date_published "%a, %b %e %Y"}} :: {{../data.author}}</h2>
   </hgroup>
+  {{/if}}
   {{/if}}
   {{/each}}
 </ul>

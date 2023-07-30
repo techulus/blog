@@ -72,6 +72,11 @@ article > header > p {
   margin-bottom: 0;
 }
 
+article a {
+  text-decoration: underline;
+  color: var(--primary);
+}
+
 blockquote p {
   margin: 0;
 }
@@ -101,7 +106,17 @@ article p img {
   width: 100%;
   margin-top: 32px;
   scale: 1.1;
-  border-radius: 4px;
+}
+
+.post-cover::before {
+  border: 2px solid #039be5;
+  content: "";
+  display: block;
+  height: 100%;
+  left: -0.5rem;
+  position: absolute;
+  top: 0.5rem;
+  width: 100%;
 }
 
 hgroup.post-title {
@@ -130,4 +145,40 @@ article header h3::after {
   display: block;
   width: 100%;
   border-bottom: 3px dotted #039be5;
+}
+
+.featured {
+  position: relative;
+}
+
+.featured .cover {
+  display: block;
+  width: 100%;
+  height: 256px;
+  background-position: center;
+  background-size: cover;
+}
+
+.featured h3 {
+  display: block;
+  position: absolute;
+  bottom: -50px;
+  left: -4px;
+}
+
+.featured h3 a {
+  background-color: black;
+  color: white;
+  line-height: 2rem;
+  padding: 2px;
+}
+
+@media (max-width: 576px) {
+  main {
+    overflow: hidden;
+  }
+
+  .featured h3 {
+    bottom: -12px;
+  }
 }
