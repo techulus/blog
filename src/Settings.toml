@@ -5,6 +5,8 @@ ws_port = 3001
 [meta]
 title = "~/techulus"
 description = "Thoughts, experiments and ideas."
+og_image_url = "https://rustyink.cli.rs/images/og.png"
+base_url = "https://techulus.xyz"
 
 [site]
 script_urls = []
