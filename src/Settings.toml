@@ -5,7 +5,7 @@ ws_port = 3001
 [meta]
 title = "~/techulus"
 description = "Thoughts, experiments and ideas."
-og_image_url = "https://rustyink.cli.rs/images/og.png"
+og_image_url = "https://hey.changes.page/api/og?title=~/techulus&body=Thoughts,%20experiments%20and%20ideas.&logo=https://techulus.xyz/logo.png"
 base_url = "https://techulus.xyz"
 
 [site]

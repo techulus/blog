@@ -4,6 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  {{#if page_metadata.title}}
+  <meta property="title" content="{{page_metadata.title}}" />
+  <meta property="og:title" content="{{page_metadata.title}}" />
+  <meta name="twitter:title" content="{{page_metadata.title}}" />
+  {{/if}}
+
   {{{open_graph_tags}}}
 
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -13,7 +19,13 @@
 
   {{{styles}}}
 
+
+  {{#if page_metadata.title}}
+  <title>{{page_metadata.title}}</title>
+  {{else}}
   <title>{{title}}</title>
+  {{/if}}
+
   <script defer type="module">
     import flamethrower from '/flamethrower.js'; flamethrower({
       prefetch:
