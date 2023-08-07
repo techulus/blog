@@ -1,7 +1,7 @@
 ---
 template: post
 title: "Fixing Docker MTU for private networks and VPNs"
-date_published: 1579908443000
+date_published: 1643030652000
 cover: https://images.unsplash.com/photo-1613690399151-65ea69478674?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDV8fGNvbnRhaW5lcnxlbnwwfHx8fDE2NDMwNzcxOTA&ixlib=rb-1.2.1&q=80&w=2000
 ---
 
