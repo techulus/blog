@@ -2,7 +2,7 @@
 template: post
 title: "My home lab setup with UNRAID, Jan 2022 edition"
 date_published: 1642548443000
-cover: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHNlcnZlcnxlbnwwfHx8fDE2NDI1NzIyNDU&ixlib=rb-1.2.1&q=80&w=2000
+cover: /cover/serverfarm.jpeg
 ---
 
 I'm going to walk you through my home lab setup, showing you what I've set up now, both hardware and software and also share my plans for potential upgrades in the future.
@@ -16,12 +16,12 @@ We will begin with the hardware, I have a basic home lab setup with just two ser
 *Specifications for Dell Optiplex 7050* ***aka Hades***  
 Core™ i5-6600, 16GB RAM, 256GB SSD
 
-![My home lab setup with UNRAID, Jan 2022 edition](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040962583/eee77ebc-c421-4c93-8d0f-4c90ee597d46.png)
+![My home lab setup with UNRAID, Jan 2022 edition](/images/homelab-2022/1.png)
 
 *Specifications for Tower PC* ***aka Thor***  
 Core™ [i5-11600K](https://www.amazon.com/gp/product/B08X67YZBL/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=dotvim-20&creative=9325&linkCode=as2&creativeASIN=B08X67YZBL&linkId=1a7a54da13a770d7c2a18c3808055718&ref=techulus.xyz), ROG STRIX B560-G Motherboard, [32GB RAM](https://amzn.to/3qEI816?ref=techulus.xyz), 4TB storage (2x 1TB NVMe drive, 1x 2TB HDD), [Nvidia RTX 3060](https://www.amazon.com/gp/product/B0971B5B1L/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=dotvim-20&creative=9325&linkCode=as2&creativeASIN=B0971B5B1L&linkId=ffb81beb4594222b539bb0578eeb6317&ref=techulus.xyz) and the most important part RGB (for extra FPS)
 
-![My home lab setup with UNRAID, Jan 2022 edition](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040964626/f741db37-f735-458f-b90f-b46b95f77192.jpeg)
+![My home lab setup with UNRAID, Jan 2022 edition](/images/homelab-2022/2.jpeg)
 
 ## Software
 
@@ -29,7 +29,7 @@ Starting with Dell, it has a super simple setup with just Ubuntu and docker. Ess
 
 Coming to the tower PC, it runs on [UNRAID](https://unraid.net/?ref=techulus.xyz) OS, which is unbelievably easy to set-up and has an amazing community. I don't want to go too deep into UNRAID now, maybe another time, but for now here are the things I've running on it:
 
-![My home lab setup with UNRAID, Jan 2022 edition](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040966621/d9c1dd5d-1078-4f60-8e1f-017b3e49d1a5.png)
+![My home lab setup with UNRAID, Jan 2022 edition](/images/homelab-2022/3.png)
 
 UNRAID Array
 
@@ -46,7 +46,7 @@ UNRAID Array
 * another Ubuntu server VM for running this blog
     
 
-![My home lab setup with UNRAID, Jan 2022 edition](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040968470/d1b35523-5cdc-49bc-ba49-9118ba82acf6.png)
+![My home lab setup with UNRAID, Jan 2022 edition](/images/homelab-2022/4.png)
 
 VMs and Docker containers
 

@@ -13,7 +13,7 @@ In a nutshell, the problem was the swarm ingress routing mesh with a bad MTU con
 
 The Docker Daemon does not check the MTU of the outgoing connection and is by default set to 1500, my private network (using [Tailscale](https://tailscale.com/?ref=techulus.xyz)) on the hand only supports an MTU of 1280, you can find this by running `ip link` command.
 
-![Fixing Docker MTU for private networks and VPNs](https://cdn.hashnode.com/res/hashnode/image/upload/v1682040948447/8ed65b94-a568-4c86-b739-84445b548575.png)
+![Fixing Docker MTU for private networks and VPNs](/images/mtu.png)
 
 The solution is fairly straightforward, we have to update Docker network configuration to use the lower MTU and we can do this in two ways:
 

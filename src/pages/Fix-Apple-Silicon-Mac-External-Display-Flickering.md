@@ -27,13 +27,13 @@ If enabled properly you will see HDR settings inside Mac display settings.
 
 Next, on your Mac, go to System Settings > Displays and update the settings as follows:
 
-- Enable HDR for the external display.
-- Select an sRGB color profile from the color profiles installed by the monitor driver.
-- Refresh rate should be 60 Hertz.
+> - Enable HDR for the external display.
+> - Select an sRGB color profile from the color profiles installed by the monitor driver.
+> - Refresh rate should be 60 Hertz.
 
 ![Monitor Settings](/images/monitor-settings.png "Monitor Settings")
 
-Next, switch to Built-in display settings and disable True Tone (if its a Macbook).
+> Next, switch to Built-in display settings and disable True Tone (if its a Macbook).
 
 ![Mac Settings](/images/mac-settings.png "Mac Settings")
 
