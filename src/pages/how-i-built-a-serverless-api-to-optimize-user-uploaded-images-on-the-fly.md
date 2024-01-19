@@ -2,7 +2,6 @@
 template: post
 title: "How I Built a Serverless API to Optimize User-Uploaded Images on the Fly"
 date_published: 1681950443000
-# featured: true
 cover: /cover/tinker.jpeg
 ---
 

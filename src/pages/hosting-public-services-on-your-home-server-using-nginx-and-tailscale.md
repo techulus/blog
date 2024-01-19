@@ -2,7 +2,6 @@
 template: post
 title: "Hosting public services on your home server using NGINX and Tailscale"
 date_published: 1643930843000
-# featured: true
 cover: /cover/glasses.jpeg
 ---
 
