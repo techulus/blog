@@ -6,8 +6,7 @@ cover: /cover/macbook.jpg
 ---
 
 If you're experiencing screen flickering issues while connected to an external display on your Apple silicon Mac, you're not alone.
-Flickering screens and faint lines can be frustrating, but fear not – I've got a solution for you.
-In this comprehensive guide, I'll walk you through the steps to resolve this problem and enjoy a seamless external display experience.
+Flickering screens and faint lines can be frustrating, but fear not – I've got a solution for you. The only catch is that this fix requires your monitor have some sort of HDR capability.
 
 ## Step 1: Install the Latest Monitor Firmware
 
@@ -21,12 +20,22 @@ To enhance compatibility and to get custom color profiles from Dell, installing 
 Visit the Dell support website once again, locate the appropriate monitor driver, and proceed with the installation.
 After the installation is complete, restart your Mac to ensure the changes take effect.
 
-## Step 3: Enable HDR on Both Monitor and Mac
+## Step 3: Update Display Settings
 
-Last step is to fine-tune your display settings, first enable HDR on both your Dell U3223QE monitor and your Apple silicon Mac.
-Navigate to your monitor's display settings and enable HDR.
-Next, on your Mac, go to System Settings > Displays and enable HDR for the external display.
-I'd also recommend disabling True Tone if its a Macbook.
+Start by enabling HDR on your monitor, this will probably be done using monitors hardware settings (on screen menu).
+If enabled properly you will see HDR settings inside Mac display settings.
+
+Next, on your Mac, go to System Settings > Displays and update the settings as follows:
+
+- Enable HDR for the external display.
+- Select an sRGB color profile from the color profiles installed by the monitor driver.
+- Refresh rate should be 60 Hertz.
+
+![Monitor Settings](/images/monitor-settings.png "Monitor Settings")
+
+Next, switch to Built-in display settings and disable True Tone (if its a Macbook).
+
+![Mac Settings](/images/mac-settings.png "Mac Settings")
 
 Hopefully this will resolve the annoying flickering! :)
 
