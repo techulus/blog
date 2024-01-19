@@ -2,7 +2,7 @@
 template: post
 title: "How to: Backup UNRAID flash to cloud drive"
 date_published: 1666567643000
-featured: true
+# featured: true
 cover: /cover/sd.jpeg
 ---
 

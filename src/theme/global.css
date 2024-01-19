@@ -1,5 +1,6 @@
 :root {
-  --font-family: "Fira Sans", sans-serif;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --spacing: 0.75rem;
 }
 
@@ -67,8 +68,8 @@ article {
   padding: calc(var(--block-spacing-vertical) / 2) 0;
 }
 
-article>header>h2,
-article>header>p {
+article > header > h2,
+article > header > p {
   margin-bottom: 0;
 }
 
