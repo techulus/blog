@@ -15,7 +15,7 @@ The first step is to ensure your monitor (in my case, it's Dell U3223QE and the 
 If its a Dell monitor, head over to the Dell support website and find the latest firmware update for your monitor model.
 Download and install it following the provided instructions.
 
-## Step 2: Install Dell Monitor Driver for Color Profiles
+## Step 2: Install Monitor Driver & Color Profiles (If available)
 
 To enhance compatibility and to get custom color profiles from Dell, installing the monitor driver is essential.
 Visit the Dell support website once again, locate the appropriate monitor driver, and proceed with the installation.
