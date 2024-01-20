@@ -3,6 +3,7 @@ template: post
 title: "Free website monitoring with instant push notification alerts"
 date_published: 1581377243000
 cover: /cover/servers.jpeg
+amp: true
 ---
 
 In this article, I’ll help you set up a free and simple website monitoring tool which sends instant alerts using push notification. Before we begin, let’s have a look a what we will need:

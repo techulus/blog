@@ -3,6 +3,7 @@ template: post
 title: "Hosting public services on your home server using NGINX and Tailscale"
 date_published: 1643930843000
 cover: /cover/glasses.jpeg
+amp: true
 ---
 
 In a previous [article](https://techulus.xyz/how-to-setup-remote-access-to-home-server-using-tailscale/), we discussed how to set up remote access to home-lab via private VPN with the help of Tailscale. Today we are going to extend that set-up to make some services available publicly such as a blog or a web server.

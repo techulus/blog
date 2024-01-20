@@ -3,6 +3,7 @@ template: post
 title: "How to: Get push notifications from GitHub"
 date_published: 1573428443000
 cover: /cover/phone-notifications.jpeg
+amp: true
 ---
 
 If you’ve got a mobile phone, then you probably know what push notifications are. A [push notification](https://www.twilio.com/docs/glossary/what-is-push-notification?ref=techulus.xyz) (also known as a server push notification) is the delivery of information to a computing device from an application server where the request for the transaction is started by the server rather than by an explicit request from the client. Basically, it’s these bubbles that pop up on your device.

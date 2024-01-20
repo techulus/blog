@@ -3,6 +3,7 @@ template: post
 title: "How to: Backup UNRAID flash to cloud drive"
 date_published: 1666567643000
 cover: /cover/sd.jpeg
+amp: true
 ---
 
 Recently while trying to downgrade my UNRAID OS, I completely messed up my server, and the worst part, I did not have a backup of my flash drive. I had to set up my whole server again, lesson learned!

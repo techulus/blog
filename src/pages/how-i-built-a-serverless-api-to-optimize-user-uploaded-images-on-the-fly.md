@@ -3,6 +3,7 @@ template: post
 title: "How I Built a Serverless API to Optimize User-Uploaded Images on the Fly"
 date_published: 1681950443000
 cover: /cover/tinker.jpeg
+amp: true
 ---
 
 Optimizing images for the web is a crucial step in improving the performance and user experience of a website. However, it can be challenging to optimize user-uploaded images when you don't know their dimensions in advance. This is where server-side image processing comes in handy.

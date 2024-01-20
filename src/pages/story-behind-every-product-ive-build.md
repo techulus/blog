@@ -3,6 +3,7 @@ template: post
 title: "Story behind every product I've build - Part 1 of ?"
 date_published: 1670110043000
 cover: /cover/story.jpeg
+amp: true
 ---
 
 It was 2009, I got my hands on an iPhone (the original iPhone 2G) for the very first time. It was uncommon in India, mainly because it was hard to get and not affordable, but more than that it wasn't a great experience. All the phones were locked and also jailbroken for unlocking, we couldn't update iOS because that would break Cydia and get rid of the carrier unlock. Unaware of this the first thing I did after getting the phone was to upgrade the OS and thus got my phone locked, sigh.

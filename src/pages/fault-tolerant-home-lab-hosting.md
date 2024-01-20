@@ -3,6 +3,7 @@ template: post
 title: "Fault tolerant home lab hosting"
 date_published: 1663806443000
 cover: /cover/buttons.jpeg
+amp: true
 ---
 
 I've been self-hosting stateless web services at my home lab for over two years now, so it's time to write about it. To be clear, I'm not implying this is the right method, it is what has worked best for me.

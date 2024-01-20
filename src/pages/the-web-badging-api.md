@@ -3,6 +3,7 @@ template: post
 title: "The Web Badging API"
 date_published: 1572823643000
 cover: /images/badge/cover.png
+amp: true
 ---
 
 We web developers always strive to make our “web apps” perform and feel as native as possible, but our capabilities are always limited by what is provided by browsers. Thankfully, the web ecosystem is evolving at a quick pace and we’re frequently introduced to new powerful APIs that lets us build more advanced tools. Let’s have a look at such a new API that bridges the gap between web and native applications.

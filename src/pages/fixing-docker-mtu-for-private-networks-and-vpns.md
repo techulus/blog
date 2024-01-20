@@ -3,6 +3,7 @@ template: post
 title: "Fixing Docker MTU for private networks and VPNs"
 date_published: 1643030652000
 cover: /cover/docker-mtu.jpeg
+amp: true
 ---
 
 Recently while settings up a Docker swarm cluster I noticed something strange happening, a lot of the requests being processed by the swarm service were failing even though the cluster was live and the nodes were able to communicate to each other. After a few hours of debugging, scratching heads, googling etc I finally found [this](https://github.com/moby/moby/issues/36689?ref=techulus.xyz) and that was indeed the problem.

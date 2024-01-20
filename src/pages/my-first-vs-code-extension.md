@@ -3,6 +3,7 @@ template: post
 title: "My First VS Code Extension"
 date_published: 1525912043000
 cover: /images/js_file_header.png
+amp: true
 ---
 
 > Finally, after playing around with VS Code a lot, I decided I should publish a plugin. I had a few ideas in mind, mostly minor helpers that would help me in my work.

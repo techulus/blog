@@ -3,6 +3,7 @@ template: post
 title: "How to setup remote access to home server using Tailscale"
 date_published: 1642202843000
 cover: /cover/plant.jpeg
+amp: true
 ---
 
 In this tutorial, we're going to set up secure remote access to our home servers/lab via the internet without using a static IP or Dynamic DNS with the help of [Tailscale](https://tailscale.com/?ref=techulus.xyz). We will need two things to make this work:

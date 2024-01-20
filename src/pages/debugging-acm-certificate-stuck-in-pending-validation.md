@@ -3,6 +3,7 @@ template: post
 title: "Debugging ACM certificate stuck in 'Pending validation'"
 date_published: 1666654043000
 # cover: /cover/acm.jpeg
+amp: true
 ---
 
 >***TL;DR*** *My domain had a CNAME record pointing to Vercel, which had a CAA recording that prevented AWS from issuing certificates. The fix was to replace the* ***CNAME*** *record with an* ***A*** *record.*

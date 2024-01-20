@@ -3,6 +3,7 @@ template: post
 title: "My home lab setup with UNRAID, Jan 2022 edition"
 date_published: 1642548443000
 cover: /cover/serverfarm.jpeg
+amp: true
 ---
 
 I'm going to walk you through my home lab setup, showing you what I've set up now, both hardware and software and also share my plans for potential upgrades in the future.

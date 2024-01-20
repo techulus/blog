@@ -3,6 +3,7 @@ template: post
 title: "Fix Apple Silicon Mac External Display Flickering"
 date_published: 1705648747176
 # cover: /cover/macbook.jpg
+amp: true
 ---
 
 If you're experiencing screen flickering issues while connected to an external display on your Apple silicon Mac, you're not alone.
