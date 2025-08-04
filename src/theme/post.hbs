@@ -2,18 +2,8 @@
   <header>
     <h3>{{data.title}}</h3>
 
-    {{#if data.author}}
-    <p>
-      {{#if data.author_link}}
-      <small>// Written by <a href="{{data.author_link}}">{{data.author}}</a></small>
-      {{else}}
-      <small>// Written by {{data.author}}</small>
-      {{/if}}
-    </p>
-    {{/if}}
-
     {{#if data.date_published}}
-    <p><small>// {{format-date data.date_published "%a, %b %e %Y"}}</small></p>
+    <p>{{format-date data.date_published "%a, %b %e %Y"}}{{#if data.author}} :: {{#if data.author_link}}<a href="{{data.author_link}}">{{data.author}}</a>{{else}}{{data.author}}{{/if}}{{/if}}</p>
     {{/if}}
 
     {{#if data.cover}}
@@ -23,15 +13,6 @@
 
   {{{body}}}
 
-  <footer>
-    {{#if data.author}}
-    <p>
-      {{#if data.author_link}}
-      <small>// Find me on Twitter/X <a href="{{data.author_link}}">@arjunz</a></small>
-      {{/if}}
-    </p>
-    {{/if}}
-  </footer>
 </article>
 
 <script async src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>

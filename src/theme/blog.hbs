@@ -13,7 +13,7 @@
   {{/each}}
 </div>
 
-<ul style="margin-top: 40px;">
+<ul style="list-style: none; padding: 0; margin: 0;">
   {{#each (sort-by root "date_published" "desc")}}
   {{#if (not (eq @key "_self"))}}
   {{#if (not(eq this.featured true))}}
