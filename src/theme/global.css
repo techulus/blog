@@ -362,6 +362,50 @@ blockquote {
   border-left: 3px solid var(--border);
 }
 
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 32px 0 16px;
+}
+
+.footnote-reference {
+  font-size: 0.78em;
+  line-height: 0;
+}
+
+.footnote-reference a {
+  color: var(--text-secondary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footnote-reference a:hover {
+  color: var(--text-primary);
+  text-decoration: underline;
+}
+
+.footnote-definition {
+  margin: 8px 0;
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.6;
+  scroll-margin-top: 24px;
+}
+
+.footnote-definition-label {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.footnote-definition p {
+  display: inline;
+  margin: 0;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
 /* Blog post grid */
 .grid {
   display: flex;
