@@ -27,16 +27,18 @@ For the load balancer, I was familiar with [Cloudflare](https://developers.cloud
 
 BTW, the main pool itself has a small load balancing setup inside it, where 90% of the traffic goes to the main production servers, but 10% goes to the pre-prod servers, which I use for [canary rollout](https://launchdarkly.com/blog/four-common-deployment-strategies/).
 
-To summarise, there is a Cloudflare load balancer at the edge, user request hits that first, it is then routed to Railway or GCP, depending on the health of the services. The database layer is completely moved to PlanetScale Metal instances.
+To summarise, there is a Cloudflare load balancer at the edge, user request hits that first, it is then routed to Railway or GCP, depending on the health of the services. The database layer is completely moved to PlanetScale Metal instances[^2].
 
 I think it’s simple, cheap and low maintenance, exactly how infrastructure should be.
 
 ## There are ~~caveats~~ tradeoffs
 
 - DB is still a single point of failure, but I trust PlanetScale
-- Requests could be slower while the failover happens, Cloud run might take a while to warm up, but its always better to have a slower response than "no" response. [^2]
+- Requests could be slower while the failover happens, Cloud run might take a while to warm up, but its always better to have a slower response than "no" response. [^3]
 - Any infra changes needs to be applied in two places, Railway and GCP
 
 [^1]: Incidents happened few weeks before the time of writing, in no way am I saying they will be like this forever. Railway is awesome and they're working on it.
 
-[^2]: You can work around this by settings minimum instance count, but then you're always paying for those instances.
+[^2]: PlanetScale Metal instances aren't cheap, but there are EBS instances [starting at $5](https://planetscale.com/pricing).
+
+[^3]: You can work around this by settings minimum instance count, but then you're always paying for those instances.
