@@ -9,6 +9,7 @@ og_image_url = "https://hey.changes.page/api/og?title=~/techulus&body=Thoughts,%
 base_url = "https://techulus.xyz"
 
 [site]
+external_links_open_in_new_tab = true
 script_urls = []
 style_urls = [
   'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css',
